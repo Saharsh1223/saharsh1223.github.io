@@ -4,23 +4,61 @@
 }
 
 body {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background: #f8f8f8;
-
-    position:fixed;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f8f8f8;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-h1 {
-    font-family: 'mainFont';
-    font-weight:normal;
-    font-style:normal;
-    font-size: 60px;
+.main {
+  font-family: 'mainFont';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 5.6vw;
+  color: #181818;
+}
+
+.subMain {
+  font-family: 'mainFont';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3.5vw;
+  color: #181818;
+  position: absolute;
+}
+
+.typed-text {
+  color: chartreuse;
+}
+
+.container p span.typed-text {
+  font-family: 'mainFont';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3.5vw;
+  color: #181818;
+}
+
+.cursor {
+  animation: blinker 0.35s linear infinite;
+  color: #181818; 
+}
+
+.cursor.typing {
+  animation: none;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+h2, h1 {
+  margin: 0;
 }
