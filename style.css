@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'mainFont';
+  src: url("Fonts/Poppins/Poppins-Medium.ttf") format('truetype');
+}
+
+body {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #f8f8f8;
+
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+h1 {
+    font-family: 'mainFont';
+    font-weight:normal;
+    font-style:normal;
+    font-size: 60px;
+}
