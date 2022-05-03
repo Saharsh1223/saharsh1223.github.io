@@ -26,11 +26,40 @@ body { position: absolute; }
   overflow-y:scroll;
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  position: sticky;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: 'mainFont';
+  font-size: 1.1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #181818;
+  padding: 8px 25px;
+}
+
+.navbar ul li a:hover {
+  transform: scale(1.5);
+}
+
 .main {
   font-family: 'mainFont';
   font-weight: normal;
   font-style: normal;
-  font-size: 5.6vw;
+  /* font-size: 5.6vw; */
+  font-size: 80px;
   color: #181818;
 }
 
@@ -38,16 +67,24 @@ body { position: absolute; }
   font-family: 'mainFont';
   font-weight: normal;
   font-style: normal;
-  font-size: 3.5vw;
+  /* font-size: 3.5vw; */
+  font-size: 40px;
   color: #313131;
   position: absolute;
+}
+
+.pfp {
+  max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 .description {
   font-family: 'descFont';
   font-weight: normal;
   font-style: normal;
-  font-size: 1.75vw;
+  /* font-size: 1.75vw; */
+  font-size: 25px;
   color: #373737;
   position: relative;
   bottom: -80px;
