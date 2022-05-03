@@ -3,18 +3,27 @@
   src: url("Fonts/Poppins/Poppins-Medium.ttf") format('truetype');
 }
 
-body {
-  height: 90vh;
-  display: flex;
+@font-face {
+  font-family: 'descFont';
+  src: url("Fonts/Poppins/Poppins-Regular.ttf") format('truetype');
+}
+
+html { overflow-y: scroll; overflow-x:hidden; }
+body { position: absolute; }
+
+.container {
+  /* height: 90vh; */
+  display: grid;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: #f8f8f8;
+  background: #f1f1f1;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  overflow-y:scroll;
 }
 
 .main {
@@ -30,12 +39,32 @@ body {
   font-weight: normal;
   font-style: normal;
   font-size: 3.5vw;
-  color: #181818;
+  color: #313131;
   position: absolute;
+}
+
+.description {
+  font-family: 'descFont';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.75vw;
+  color: #373737;
+  position: relative;
+  bottom: -80px;
+  text-align: left;
 }
 
 .typed-text {
   color: chartreuse;
+}
+
+.cursor {
+  animation: blinker 0.6s linear infinite;
+  color: #181818; 
+}
+
+.space {
+  margin-top: 150px;
 }
 
 .container p span.typed-text {
@@ -46,9 +75,13 @@ body {
   color: #181818;
 }
 
-.cursor {
-  animation: blinker 0.35s linear infinite;
-  color: #181818; 
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .cursor.typing {
@@ -61,4 +94,9 @@ body {
 
 h2, h1 {
   margin: 0;
+  vertical-align: bottom;
 }
+
+/* div {
+  vertical-align: bottom;
+} */
