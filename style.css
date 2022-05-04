@@ -120,7 +120,7 @@ body {
   color: #181818;
 }
 
-.unselectable {
+.us {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
