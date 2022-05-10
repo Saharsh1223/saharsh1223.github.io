@@ -169,6 +169,7 @@ body {
 
 .typed-text {
   color: chartreuse;
+  text-shadow: none;
 }
 
 .cursor {
