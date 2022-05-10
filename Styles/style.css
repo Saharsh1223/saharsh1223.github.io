@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'mainFont';
-  src: url("Fonts/Poppins/Poppins-Medium.ttf") format('truetype');
+  src: url("../Fonts/Poppins/Poppins-Medium.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'descFont';
-  src: url("Fonts/Poppins/Poppins-Regular.ttf") format('truetype');
+  src: url("../Fonts/Poppins/Poppins-Regular.ttf") format('truetype');
 }
 
 html {
   overflow-y: scroll;
-  overflow-x: visible;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -75,7 +75,7 @@ body {
   padding: 30px;
   
   position: relative;
-  right: 15px;
+  right: 20px;
 }
 
 .main {

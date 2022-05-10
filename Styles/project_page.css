@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'mainFont';
+  src: url("../Fonts/Poppins/Poppins-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'descFont';
+  src: url("../Fonts/Poppins/Poppins-Regular.ttf") format('truetype');
+}
+
+.main_Head {
+  font-family: 'mainFont';
+  font-weight: normal;
+  font-style: normal;
+  /* font-size: 5.6vw; */
+  font-size: 80px;
+  color: #181818;
+
+  text-align: center;
+  position: relative;
+
+  text-shadow: 0px 0px 35px #b2b2b2;
+}
+
+.hr {
+  height: 5px;
+  width: calc((160vw)/2);
+  background-color: #181818;
+  position: relative;
+  border-width: 0;
+}
+
+.video {
+  width: calc((160vw)/2);
+  height: calc((90vw)/2);
+
+  align-self: center;
+  justify-content: center;
+}
+
+.download_btn {
+  font-family: 'descFont';
+  font-weight: normal;
+  font-style: normal; 
+
+  background-color: #181818;
+  border: none;
+  color: white;
+  /* padding: 20px; */
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22.5px;
+  /* margin: 4px 2px; */
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  width: 180px;
+  height: 60px;
+
+  box-shadow: 0px 16px 16px rgba(0,0,0,0.14);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  margin: 0px 8px;
+}
+
+.download_btn:hover {
+  background-color: #000000;
+}

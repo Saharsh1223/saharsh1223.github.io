@@ -70,9 +70,14 @@
   font-weight: normal;
   font-style: normal;
   text-align: center;
+  color: #181818;
+  /* z-index: 999999; */
+
+  position: relative;
+  bottom: 30px;
 }
 
-#button_container {
+#img_container {
   width: 350px;
   height: 190px;
   
@@ -80,9 +85,14 @@
   /* border-radius: 10px; */
   overflow: hidden;
 
-  display: inline-block;
-  margin: 5px 15px;
+  /* display: inline-block; */
+  margin: 40px 40px;
   
   align-items: left;
   justify-content: left;
+}
+
+#main_container {
+  display: inline-block;
+  /* text-align: center; */
 }
