@@ -33,9 +33,13 @@
 .video {
   width: calc((160vw)/2);
   height: calc((90vw)/2); 
-  border : 2px solid;
+
+  border : 1.5px solid;
+
   margin: 0 auto;
   display: block;
+
+  box-shadow: 0px 16px 16px rgba(15, 15, 15, 0.20);
 }
 
 .download_btn {
