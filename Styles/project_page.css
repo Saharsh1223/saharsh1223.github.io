@@ -32,10 +32,10 @@
 
 .video {
   width: calc((160vw)/2);
-  height: calc((90vw)/2);
-
-  align-self: center;
-  justify-content: center;
+  height: calc((90vw)/2); 
+  border : 2px solid;
+  margin: 0 auto;
+  display: block;
 }
 
 .download_btn {

@@ -56,7 +56,7 @@
   height: 190px;
   
   /* border: 4px solid #181818; */
-  transition: all .2s ease-in-out;
+  transition: all .25s ease-in-out;
   background-size: cover;
 }
 

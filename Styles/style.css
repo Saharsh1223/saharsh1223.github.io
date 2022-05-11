@@ -283,6 +283,10 @@ h2, h1 {
   vertical-align: bottom;
 }
 
+img {
+  /* pointer-events: none; */
+  user-select: none;
+}
 
 /* div {
   vertical-align: bottom;
