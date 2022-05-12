@@ -16,15 +16,11 @@ html {
 
 body {
   position: absolute;
-}
 
-.container {
-  /* height: 90vh; */
   display: grid;
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* background: #f1f1f1; */
   background: #f1fafa;
   position: fixed;
   top: 0;
@@ -33,6 +29,7 @@ body {
   right: 0;
 
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 /* .socials {
@@ -245,7 +242,12 @@ body {
   /* cursor: pointer; */
 }
 
-
+.vl {
+  border-left: 4px solid #181818;
+  height: 40px;
+  position: absolute;
+  bottom: -1285px;
+}
 
 .us {
   -webkit-touch-callout: none;
@@ -293,7 +295,7 @@ img {
 } */
 
 @media only screen and (max-width: 828px){
-  .subMain{position:inherit}
+  .subMain{position:static}
   .line:after{
     visibility: hidden;
   }
